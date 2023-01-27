@@ -1,4 +1,3 @@
-# Step #4
+# Step #5
 
-Let's start creating our Host Application. We want to incorporate those Microfrontends in here, so we will split the screen and have the todo list and todo manager side by side.
-
+This is the last step. Let's configure webpack. We need to export our components so we can access them in out main application. So, let's expose them and fix out host app.
