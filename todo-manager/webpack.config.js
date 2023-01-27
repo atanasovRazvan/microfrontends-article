@@ -44,7 +44,9 @@ module.exports = {
       name: "todo_manager",
       filename: "remoteEntry.js",
       remotes: {},
-      exposes: {},
+      exposes: {
+        "./TodoManager": "./src/components/todo-manager/todo-manager",
+      },
       shared: {
         ...deps,
         react: {

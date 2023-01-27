@@ -44,7 +44,9 @@ module.exports = {
       name: "todo_list",
       filename: "remoteEntry.js",
       remotes: {},
-      exposes: {},
+      exposes: {
+        "./TodoList": "./src/components/todo-list/todo-list",
+      },
       shared: {
         ...deps,
         react: {

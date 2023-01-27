@@ -43,7 +43,10 @@ module.exports = {
     new ModuleFederationPlugin({
       name: "host",
       filename: "remoteEntry.js",
-      remotes: {},
+      remotes: {
+        todo_list: "todo_list@http://localhost:3001/remoteEntry.js",
+        todo_manager: "todo_manager@http://localhost:3002/remoteEntry.js"
+      },
       exposes: {},
       shared: {
         ...deps,
