@@ -1,4 +1,4 @@
-# Step #3
+# Step #4
 
-We know how our Todo list looks like, but that is pretty boring. Let's start managing these items, with ADD and DELETE actions. This is going to be our second Micro Service.
+Let's start creating our Host Application. We want to incorporate those Microfrontends in here, so we will split the screen and have the todo list and todo manager side by side.
 
