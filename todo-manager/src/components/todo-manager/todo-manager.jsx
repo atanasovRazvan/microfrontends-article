@@ -47,14 +47,15 @@ const TodoManager = ( {todos, updateTodos} ) => {
     }
 
     return (
-        <div className="todos-container">
-            <input type="text" name="input" className="todos-input" placeholder="Enter a todo..." ref={inputRef}/>
-            <div className="todos-btn-wrapper">
-                <button className="todos-btn" onClick={handleAdd}> ADD</button>
-                <button className="todos-btn" onClick={handleDelete}> DELETE</button>
+        <div className="todo-manager-container">
+            <h1>Todo Manager</h1>
+            <input type="text" name="input" className="todo-manager-input" placeholder="Enter a todo..." ref={inputRef}/>
+            <div className="todo-manager-btn-wrapper">
+                <button className="todo-manager-btn" onClick={handleAdd}> ADD</button>
+                <button className="todo-manager-btn" onClick={handleDelete}> DELETE</button>
             </div>
             {isChanged &&
-                <button className="todos-btn" onClick={handleSave}> SAVE </button>
+                <button className="todo-manager-btn" onClick={handleSave}> SAVE </button>
             }
         </div>
     )

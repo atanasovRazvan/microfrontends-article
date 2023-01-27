@@ -5,7 +5,6 @@ import "./index.css";
 import TodoManager from "./components/todo-manager/todo-manager";
 
 const App = () => (
-  <div className="container">
     <TodoManager
         todos={[
             {
@@ -24,6 +23,5 @@ const App = () => (
         // Some function that updates the todos.
         updateTodos={() => {}}
     />
-  </div>
 );
 ReactDOM.render(<App />, document.getElementById("app"));

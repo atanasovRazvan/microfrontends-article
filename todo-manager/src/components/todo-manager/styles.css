@@ -1,16 +1,16 @@
-.todos-container {
+.todo-manager-container {
     display: flex;
     flex-direction: column;
-    width: 200px;
+    width: 250px;
 }
 
-.todos-btn-wrapper {
+.todo-manager-btn-wrapper {
     display: flex;
     justify-content: space-between;
     margin-top: 1rem;
 }
 
-.todos-input {
+.todo-manager-input {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -20,7 +20,7 @@
     box-sizing: border-box;
 }
 
-.todos-btn {
+.todo-manager-btn {
     color: #1685b3;
     border: 1px solid lightgray;
     border-radius: 0.5rem;
@@ -29,7 +29,7 @@
     margin-bottom: 1rem;
 }
 
-.todos-btn:hover {
+.todo-manager-btn:hover {
     background-color: #1685b3;
     color: white;
 }
