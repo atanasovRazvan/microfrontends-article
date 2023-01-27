@@ -1,10 +1,5 @@
-# Step #1
+# Step #2
 
-This step is all about initial project structure. Create a main folder, and run the following command:
-```js
-npx create-mf-app
-```
+Now, we will create a simple React Application that renders a todo list.
+This should be really straight forward, and it's going to be our todo-list Micro Frontend.
 
-Except the name and the port, everything is default.  
-This should result in a boilerplate application, we are going to go throughout everything later on.  
-Also, don't forget one important thing, which is `npm install`.

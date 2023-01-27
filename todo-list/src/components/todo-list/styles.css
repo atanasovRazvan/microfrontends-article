@@ -1,0 +1,6 @@
+.todo {
+    padding: 1rem 0 1rem 1rem;
+    margin: 1rem 0 1rem 1rem;
+    border-left: 2px solid lightgrey;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
