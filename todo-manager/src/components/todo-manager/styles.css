@@ -1,0 +1,35 @@
+.todos-container {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.todos-btn-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.todos-input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.todos-btn {
+    color: #1685b3;
+    border: 1px solid lightgray;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.todos-btn:hover {
+    background-color: #1685b3;
+    color: white;
+}

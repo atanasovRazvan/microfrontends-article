@@ -1,5 +1,4 @@
-# Step #2
+# Step #3
 
-Now, we will create a simple React Application that renders a todo list.
-This should be really straight forward, and it's going to be our todo-list Micro Frontend.
+We know how our Todo list looks like, but that is pretty boring. Let's start managing these items, with ADD and DELETE actions. This is going to be our second Micro Service.
 
